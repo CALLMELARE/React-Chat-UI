@@ -5,7 +5,7 @@ import face from 'assets/images/face.png';
 import 'story.css';
 
 export default {
-    title: "Avatar",
+    title: "UI 组件/Avatar",
     component: Avatar
 }
 
