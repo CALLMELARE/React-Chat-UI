@@ -1,0 +1,8 @@
+.row-elements {
+    display: flex;
+    justify-content: center;
+}
+
+.row-elements>* {
+    margin: 8px;
+}
