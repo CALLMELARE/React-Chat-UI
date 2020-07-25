@@ -3,7 +3,7 @@ import Icon from ".";
 import { ReactComponent as SmileIcon } from 'assets/icon/smile.svg';
 
 export default {
-    title: "UI 组件/Icon",
+    title: "UI 组件/Icon(图标)",
     component: Icon
 }
 

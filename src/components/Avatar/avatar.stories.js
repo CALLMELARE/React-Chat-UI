@@ -2,10 +2,8 @@ import React from 'react';
 import Avatar from ".";
 import face from 'assets/images/face.png';
 
-import 'story.css';
-
 export default {
-    title: "UI 组件/Avatar",
+    title: "UI 组件/Avatar(头像)",
     component: Avatar
 }
 
