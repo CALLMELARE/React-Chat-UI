@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import StyledHeading from "./style";
 
-function Heading({ children, level, ...rest }) {
+const Heading = ({ children, level, ...rest }) => {
   return (
     <StyledHeading as={`h${level}`} {...rest}>
       {children}

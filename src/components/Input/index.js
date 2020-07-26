@@ -15,7 +15,7 @@ const Input = ({ placeholder = "请输入内容…", prefix, suffix, ...rest }) 
     );
 };
 
-function Search({ placeholder = "请输入搜索内容…", ...rest }) {
+const Search = ({ placeholder = "请输入搜索内容…", ...rest }) => {
     const theme = useTheme();
     return (
         <Input placeholder={placeholder} prefix={<Icon icon={SearchIcon} color={theme.gray3} width={18} height={18} />} {...rest} />

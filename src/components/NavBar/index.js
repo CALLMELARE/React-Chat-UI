@@ -16,7 +16,7 @@ import {
 
 import "styled-components/macro";
 
-function NavBar({ ...rest }) {
+const NavBar = ({ ...rest }) => {
   return (
     <StyledNavBar {...rest}>
       <Avatar src={profileImage} status="online" />

@@ -13,7 +13,7 @@ import MessageCard from "components/MessageCard";
 
 import face from "assets/images/face.png";
 
-function MessageList({ children, ...rest }) {
+const MessageList = ({ children, ...rest }) => {
   return (
     <StyledMessageList {...rest}>
       <Input.Search />

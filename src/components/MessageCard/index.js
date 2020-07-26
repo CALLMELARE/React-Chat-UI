@@ -14,7 +14,7 @@ import { useTheme } from "styled-components";
 import { ReactComponent as Replied } from "assets/icon/replied.svg";
 import Icon from "components/Icon";
 
-function MessageCard({
+const MessageCard = ({
   avatarSrc,
   avatarStatus,
   statusText,
@@ -26,7 +26,7 @@ function MessageCard({
   replied,
   children,
   ...rest
-}) {
+}) => {
   const theme = useTheme();
 
   return (

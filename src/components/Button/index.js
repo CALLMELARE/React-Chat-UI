@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import StyledButton from "./style";
 
-function Button({
+const Button = ({
   children,
   type = "primary",
   shape = "circle",
   size = "30px",
   bgColor,
   ...rest
-}) {
+}) => {
   return (
     <StyledButton
       type={type}
