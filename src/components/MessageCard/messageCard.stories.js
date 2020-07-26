@@ -33,7 +33,7 @@ export const Active = () => (
   />
 );
 
-export const Replied = () => (
+export const RepliedActive = () => (
   <MessageCard
     avatarSrc={face}
     name="LARE"
