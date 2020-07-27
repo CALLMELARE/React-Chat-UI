@@ -2,7 +2,7 @@ import React from "react";
 import Radio from ".";
 
 export default {
-  title: "UI 组件/Input/Radio",
+  title: "UI 组件/Radio(单选框)",
   component: Radio,
 };
 

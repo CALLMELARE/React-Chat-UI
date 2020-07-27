@@ -3,7 +3,7 @@ import React from "react";
 import ChatApp from ".";
 
 export default {
-  title: "ChatApp",
+  title: "主体/ChatApp",
   component: ChatApp
 };
 

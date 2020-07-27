@@ -2,7 +2,7 @@ import React from "react";
 import FilterList from ".";
 
 export default {
-  title: "页面组件/FilterList",
+  title: "页面组件/FilterList(筛选列表)",
   component: FilterList,
 };
 

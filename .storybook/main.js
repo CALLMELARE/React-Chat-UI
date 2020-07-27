@@ -1,4 +1,5 @@
 module.exports = {
+  title: "Chat",
   stories: ['../src/**/*.stories.js'],
   addons: [
     '@storybook/preset-create-react-app',

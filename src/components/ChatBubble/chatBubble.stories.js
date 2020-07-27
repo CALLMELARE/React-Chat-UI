@@ -4,7 +4,7 @@ import VoiceMessage from "components/VoiceMessage";
 import Emoji from "components/Emoji";
 
 export default {
-  title: "UI 组件/ChatBubble",
+  title: "UI 组件/ChatBubble(聊天气泡)",
   component: ChatBubble,
   decorators: [(storyFn) => <div style={{ padding: "24px" }}>{storyFn()}</div>],
 };

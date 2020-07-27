@@ -2,7 +2,7 @@ import React from "react";
 import Heading from ".";
 
 export default {
-  title: "排版/Heading",
+  title: "排版/Heading(标题)",
   component: Heading,
 };
 

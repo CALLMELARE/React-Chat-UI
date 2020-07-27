@@ -3,7 +3,7 @@ import Popover from ".";
 import Button from "components/Button";
 
 export default {
-  title: "UI 组件/Popover",
+  title: "UI 组件/Popover(弹出气泡)",
   component: Popover,
 };
 

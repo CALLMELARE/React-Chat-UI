@@ -8,7 +8,7 @@ import { ReactComponent as Options } from "assets/icons/options.svg";
 import Icon from "components/Icon";
 
 export default {
-  title: "UI 组件/Dropdown",
+  title: "UI 组件/Dropdown(下拉菜单)",
   component: Dropdown,
 };
 
