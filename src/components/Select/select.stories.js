@@ -3,7 +3,7 @@ import Select from ".";
 import Option from "components/Option";
 
 export default {
-  title: "UI 组件/Select(下拉选项)",
+  title: "UI 组件/Select(选择器)",
   component: Select,
 };
 
@@ -13,3 +13,12 @@ export const Default = () => (
     <Option>在线好友优先</Option>
   </Select>
 );
+
+export const FormSelect = () => {
+  return (
+    <Select type="form">
+      <Option>北京市</Option>
+      <Option>河北省</Option>
+    </Select>
+  );
+};
