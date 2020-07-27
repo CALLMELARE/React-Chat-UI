@@ -6,4 +6,4 @@ export default {
   component: Profile,
 };
 
-export const Default = () => <Profile children="children" />;
+export const Default = () => <Profile />;
