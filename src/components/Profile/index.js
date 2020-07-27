@@ -10,7 +10,7 @@ import StyledProfile, {
   CloseIcon,
 } from "./style";
 import "styled-components/macro";
-import face from "assets/images/face-male-3.jpg";
+import face from "assets/images/face.png";
 import Avatar from "components/Avatar";
 import Paragraph from "components/Paragraph";
 import Emoji from "components/Emoji";
@@ -80,7 +80,7 @@ function Profile({
           margin-bottom: 12px;
         `}
       >
-        慕容天宇
+        路人甲
       </Paragraph>
       <Paragraph
         size="medium"
@@ -89,7 +89,7 @@ function Profile({
           margin-bottom: 18px;
         `}
       >
-        北京市 朝阳区
+        天津市 津南区
       </Paragraph>
       <Paragraph
         css={`
@@ -116,7 +116,7 @@ function Profile({
       <ContactSection>
         <Description label="联系电话">+86 18688888888</Description>
         <Description label="电子邮件">admin@fh.com</Description>
-        <Description label="个人网站">https://zxuqian.cn</Description>
+        <Description label="个人网站">https://xxx.com</Description>
       </ContactSection>
       <Seperator
         css={`

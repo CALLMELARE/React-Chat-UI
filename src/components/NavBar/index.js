@@ -4,7 +4,7 @@ import StyledNavBar, { StyledMenuItem, MenuIcon, MenuItems } from "./style";
 import Badge from "components/Badge";
 import Avatar from "components/Avatar";
 
-import profileImage from "assets/images/face-male-1.jpg";
+import profileImage from "assets/images/face.png";
 import {
   faCommentDots,
   faUsers,

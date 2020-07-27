@@ -38,17 +38,18 @@ function Conversation({ onAvatarClick, onVideoClicked, children, ...rest }) {
         animeProps={tBarAnimeProps}
       />
       <Conversations style={convsAnimeProps}>
-        <ChatBubble time="昨天 下午14：26">Hi 小宇，忙什么呢？</ChatBubble>
+        <ChatBubble time="昨天 下午14：26">Hi 小乙，忙什么呢？</ChatBubble>
         <MyChatBubble time="昨天 下午16：30">
-          Hello 啊！最近就是一直在加班改 bug，然后 怼产品，怼 UI，各种怼！
+          Hello 啊！最近就是一直在学习。
         </MyChatBubble>
         <ChatBubble time="昨天 下午18：30">
           <VoiceMessage time="01:24" />
         </ChatBubble>
         <MyChatBubble time="昨天 下午16：30">
-          明天约一把王者荣耀，不连赢5把不罢休 🤘
+          明天一起出来吃饭吧！
           <Emoji label="smile">🤘</Emoji>
         </MyChatBubble>
+        <ChatBubble time="昨天 下午16：33">没问题！老地方见。</ChatBubble>
       </Conversations>
       <Footer animeProps={ftAnimeProps} />
     </StyledConversation>
