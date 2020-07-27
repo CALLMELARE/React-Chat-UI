@@ -1,11 +1,11 @@
 import React from "react";
 import Button from ".";
 
-import { ReactComponent as Plus } from "assets/icon/plus.svg";
+import { ReactComponent as Plus } from "assets/icons/plus.svg";
 import Icon from "components/Icon";
 
 export default {
-  title: "UI 组件/Button(按钮)",
+  title: "UI 组件/Button",
   component: Button,
 };
 

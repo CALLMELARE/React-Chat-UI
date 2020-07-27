@@ -2,7 +2,7 @@ import React from "react";
 import Emoji from ".";
 
 export default {
-  title: "UI 组件/Emoji(表情)",
+  title: "UI 组件/Emoji",
   component: Emoji,
 };
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import arrowRight from "assets/icon/arrowRight.svg";
+import arrowRight from "assets/icons/arrowRight.svg";
 import Icon from "components/Icon";
 
 const SocialLinks = styled.div`

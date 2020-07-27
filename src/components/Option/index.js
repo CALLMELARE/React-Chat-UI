@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import StyledOption from "./style";
 
-const Option = ({ children, ...rest }) => {
+function Option({children,...rest}) {
   return (
     <StyledOption {...rest}>
       {children}

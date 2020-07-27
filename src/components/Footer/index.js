@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import StyledFooter, { IconContainer, StyledPopoverContent } from "./style";
 
-import { ReactComponent as ClipIcon } from "assets/icon/clip.svg";
-import { ReactComponent as SmileIcon } from "assets/icon/smile.svg";
-import { ReactComponent as MicrophoneIcon } from "assets/icon/microphone.svg";
-import { ReactComponent as PlaneIcon } from "assets/icon/plane.svg";
-import { ReactComponent as OptionsIcon } from "assets/icon/options.svg";
+import { ReactComponent as ClipIcon } from "assets/icons/clip.svg";
+import { ReactComponent as SmileIcon } from "assets/icons/smile.svg";
+import { ReactComponent as MicrophoneIcon } from "assets/icons/microphone.svg";
+import { ReactComponent as PlaneIcon } from "assets/icons/plane.svg";
+import { ReactComponent as OptionsIcon } from "assets/icons/options.svg";
 import Input from "components/Input";
 import Icon from "components/Icon";
 import Button from "components/Button";

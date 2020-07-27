@@ -2,7 +2,7 @@ import React from "react";
 import Paragraph from ".";
 
 export default {
-  title: "排版/Paragraph(段落)",
+  title: "排版/Paragraph",
   component: Paragraph,
 };
 

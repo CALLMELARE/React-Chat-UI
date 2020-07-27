@@ -7,7 +7,7 @@ import StyledChatBubble, {
   MessageText,
 } from "./style";
 
-import { ReactComponent as BubbleTipIcon } from "assets/icon/bubbleTip.svg";
+import { ReactComponent as BubbleTipIcon } from "assets/icons/bubbleTip.svg";
 
 function ChatBubble({ children, type, time, ...rest }) {
   return (

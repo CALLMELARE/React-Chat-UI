@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import StyledVoiceMessage from "./style";
 
-import { ReactComponent as Play } from "assets/icon/play.svg";
-import { ReactComponent as Wave } from "assets/icon/wave.svg";
+import { ReactComponent as Play } from "assets/icons/play.svg";
+import { ReactComponent as Wave } from "assets/icons/wave.svg";
 import { useTheme } from "styled-components";
 import Button from "components/Button";
 import Icon from "components/Icon";

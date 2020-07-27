@@ -2,7 +2,7 @@ import React from "react";
 import VoiceMessage from ".";
 
 export default {
-  title: "UI 组件/VoiceMessage(语音消息)",
+  title: "UI 组件/VoiceMessage",
   component: VoiceMessage,
 };
 

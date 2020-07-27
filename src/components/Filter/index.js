@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import StyledFilter, { Filters, Action } from "./style";
 import Text from "components/Text";
 
-const Filter = ({ children, ...rest }) => {
+function Filter({ children, ...rest }) {
   return <StyledFilter {...rest}>{children}</StyledFilter>;
 }
 

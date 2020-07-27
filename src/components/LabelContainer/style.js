@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledLabelContainer = styled.div`
+const StyledLabelContainer = styled.label`
   display: flex;
   flex-direction: column;
   font-size: ${({ theme }) => theme.normal};

@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
-import CaretDown from "assets/icon/caret_down.svg";
-import CaretDown2 from "assets/icon/caretDown2.svg";
+import CaretDown from "assets/icons/caret_down.svg";
+import CaretDown2 from "assets/icons/caretDown2.svg";
 
 const typeVariants = {
   form: css`

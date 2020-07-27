@@ -1,17 +1,17 @@
 import React from "react";
 import MessageCard from ".";
 
-import face from "assets/images/face.png";
+import face1 from "assets/images/face-male-1.jpg";
 
 export default {
-  title: "UI 组件/MessageCard(消息卡片)",
+  title: "UI 组件/MessageCard",
   component: MessageCard,
 };
 
 export const Default = () => (
   <MessageCard
-    avatarSrc={face}
-    name="LARE"
+    avatarSrc={face1}
+    name="李铭浩"
     avatarStatus="online"
     statusText="在线"
     time="3 小时之前"
@@ -22,8 +22,8 @@ export const Default = () => (
 
 export const Active = () => (
   <MessageCard
-    avatarSrc={face}
-    name="LARE"
+    avatarSrc={face1}
+    name="李铭浩"
     avatarStatus="online"
     statusText="在线"
     time="3 小时之前"
@@ -33,10 +33,10 @@ export const Active = () => (
   />
 );
 
-export const RepliedActive = () => (
+export const Replied = () => (
   <MessageCard
-    avatarSrc={face}
-    name="LARE"
+    avatarSrc={face1}
+    name="李铭浩"
     avatarStatus="online"
     statusText="在线"
     time="3 小时之前"
@@ -49,8 +49,8 @@ export const RepliedActive = () => (
 
 export const RepliedInactive = () => (
   <MessageCard
-    avatarSrc={face}
-    name="LARE"
+    avatarSrc={face1}
+    name="李铭浩"
     avatarStatus="online"
     statusText="在线"
     time="3 小时之前"

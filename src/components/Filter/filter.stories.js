@@ -5,10 +5,10 @@ import Option from "components/Option";
 import Button from "components/Button";
 import Icon from "components/Icon";
 
-import { ReactComponent as Plus } from "assets/icon/plus.svg";
+import { ReactComponent as Plus } from "assets/icons/plus.svg";
 
 export default {
-  title: "UI 组件/Filter(过滤器)",
+  title: "UI 组件/Filter",
   component: Filter,
 };
 

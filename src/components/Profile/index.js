@@ -10,7 +10,7 @@ import StyledProfile, {
   CloseIcon,
 } from "./style";
 import "styled-components/macro";
-import face from "assets/images/face.png";
+import face from "assets/images/face-male-3.jpg";
 import Avatar from "components/Avatar";
 import Paragraph from "components/Paragraph";
 import Emoji from "components/Emoji";
@@ -28,28 +28,59 @@ import photo1 from "assets/images/photo1.jpg";
 import photo2 from "assets/images/photo2.jpg";
 import photo3 from "assets/images/photo3.jpg";
 
-import { ReactComponent as Cross } from "assets/icon/cross.svg";
+import { ReactComponent as Cross } from "assets/icons/cross.svg";
+import Button from "components/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/free-solid-svg-icons";
 
-const Profile = ({ children, ...rest }) => {
+function Profile({
+  showEditBtn,
+  showCloseIcon = true,
+  onCloseClick,
+  onEdit,
+  status,
+  children,
+  ...rest
+}) {
   return (
     <StyledProfile {...rest}>
-      <CloseIcon icon={Cross} />
+      {showCloseIcon && <CloseIcon icon={Cross} onClick={onCloseClick} />}
       <Avatar
         css={`
           margin: 26px 0;
+          grid-area: 1 / 1 / 3 / 2;
         `}
         src={face}
         size="160px"
-        status="online"
+        status={status}
         statusIconSize="25px"
       />
+      {showEditBtn && (
+        <Button
+          size="52px"
+          onClick={onEdit}
+          css={`
+            grid-area: 1 / 1 / 3 / 2;
+            align-self: end;
+            margin-left: 100px;
+            z-index: 10;
+          `}
+        >
+          <FontAwesomeIcon
+            css={`
+              font-size: 24px;
+            `}
+            icon={faPen}
+          />
+        </Button>
+      )}
       <Paragraph
         size="xlarge"
         css={`
           margin-bottom: 12px;
         `}
       >
-        LARE
+        慕容天宇
       </Paragraph>
       <Paragraph
         size="medium"
@@ -58,7 +89,7 @@ const Profile = ({ children, ...rest }) => {
           margin-bottom: 18px;
         `}
       >
-        天津市 津南区
+        北京市 朝阳区
       </Paragraph>
       <Paragraph
         css={`
@@ -107,7 +138,7 @@ const Profile = ({ children, ...rest }) => {
   );
 }
 
-const Description = ({ label, children }) => {
+function Description({ label, children }) {
   return (
     <Paragraph>
       <Text type="secondary">{label}：</Text>

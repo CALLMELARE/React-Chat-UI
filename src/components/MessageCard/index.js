@@ -11,10 +11,10 @@ import StyledMessageCard, {
 import Avatar from "components/Avatar";
 import { useTheme } from "styled-components";
 
-import { ReactComponent as Replied } from "assets/icon/replied.svg";
+import { ReactComponent as Replied } from "assets/icons/replied.svg";
 import Icon from "components/Icon";
 
-const MessageCard = ({
+function MessageCard({
   avatarSrc,
   avatarStatus,
   statusText,
@@ -26,7 +26,7 @@ const MessageCard = ({
   replied,
   children,
   ...rest
-}) => {
+}) {
   const theme = useTheme();
 
   return (
